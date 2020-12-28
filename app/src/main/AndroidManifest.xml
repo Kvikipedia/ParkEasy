@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.parkeazy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ParkEazy">
+        <activity android:name=".MyReservationsActivity"></activity>
+        <activity
+            android:name=".LoginRegisterActivity"
+            android:label="@string/title_activity_login_register"
+            android:theme="@style/Theme.ParkEazy.NoActionBar" />
+        <activity
+            android:name=".ReservationConfirmActivity"
+            android:theme="@style/Theme.ParkEazy.NoActionBar" />
+        <activity
+            android:name=".ReservationFormActivity"
+            android:theme="@style/Theme.ParkEazy.NoActionBar" />
+        <activity
+            android:name=".ParkingPlacesActivity"
+            android:theme="@style/Theme.ParkEazy.NoActionBar" />
+        <activity
+            android:name=".CitiesActivity"
+            android:theme="@style/Theme.ParkEazy.NoActionBar" />
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
